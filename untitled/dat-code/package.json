@@ -1,0 +1,469 @@
+{
+  "dresses": [
+    {
+      "id": "1",
+      "brand": "DOLCE & GABBANA",
+      "name": "Printed Mini Dress",
+      "size": ["36", "37", "38"],
+      "price": 799.99,
+      "image": "../img/img-dat/dress/chambi1.avif",
+      "image1": "../img/img-dat/dress/chambi1.avif",
+      "image2": "../img/img-dat/dress/chambi2.avif",
+      "image3": "../img/img-dat/dress/chambi3.avif",
+      "category" : "dress"
+    },
+    {
+      "id": "2",
+      "brand": "DOLCE & GABBANA",
+      "name": "Jersey Cut Out Mini Dress",
+      "size": ["37", "38"],
+      "price": 999.99,
+      "image": "../img/img-dat/dress/do.avif",
+      "image1": "../img/img-dat/dress/do1.avif",
+      "image2": "../img/img-dat/dress/do2.avif",
+      "image3": "../img/img-dat/dress/do3.avif",
+      "category" : "dress"
+
+    },
+    {
+      "id": "3",
+      "brand": "DOLCE & GABBANA",
+      "name": "Short Sleeve Midi Dress",
+      "size": ["38", "39"],
+      "price": 1999.99,
+      "image": "../img/img-dat/dress/vangchambi1.avif",
+      "image1": "../img/img-dat/dress/vangchambi1.avif",
+      "image2": "../img/img-dat/dress/vangchambi2.avif",
+      "image3": "../img/img-dat/dress/vangchambi3.avif",
+      "category" : "dress"
+
+    },
+    {
+      "id": "4",
+      "brand": "Saint Laurent",
+      "name": "Jersey Long Sleeve Gown",
+      "size": ["36", "37"],
+      "price": 699.99,
+      "image": "../img/img-dat/dress/nau.avif",
+      "image1": "../img/img-dat/dress/nau.avif",
+      "image2": "../img/img-dat/dress/nau2.avif",
+      "image3": "../img/img-dat/dress/nau3.avif",
+      "category" : "dress"
+
+    },
+    {
+      "id": "5",
+      "brand": "Saint Laurent",
+      "name": "Mock Neck Long Sleeve Dress",
+      "size": ["37", "38"],
+      "price": 899.99,
+      "image": "../img/img-dat/dress/den1.avif",
+      "image1": "../img/img-dat/dress/den1.avif",
+      "image2": "../img/img-dat/dress/den2.avif",
+      "image3": "../img/img-dat/dress/den3.avif",
+      "category" : "dress"
+
+    },
+    {
+      "id": "6",
+      "brand": "Saint Laurent",
+      "name": "Jersey Ruched Long Sleeve Mini Dress",
+      "size": ["38", "39"],
+      "price": 1499.99,
+      "image": "../img/img-dat/dress/xanh1.avif",
+      "image1": "../img/img-dat/dress/xanh2.avif",
+      "image2": "../img/img-dat/dress/xanh3.avif",
+      "image3": "../img/img-dat/dress/xanh1.avif",
+      "category" : "dress"
+
+    },
+    {
+      "id": "7",
+      "brand": "Valentino",
+      "name": "Crepe Maxi Gown",
+      "size": ["36", "37"],
+      "price": 899.99,
+      "image": "../img/img-dat/dress/val.avif",
+      "image1": "../img/img-dat/dress/val1.avif",
+      "image2": "../img/img-dat/dress/val2.avif",
+      "image3": "../img/img-dat/dress/val3.avif",
+      "category" : "dress"
+
+    },
+    {
+      "id": "8",
+      "brand": "Valentino",
+      "name": "Long Sleeve Mini Dress",
+      "size": ["37", "38"],
+      "price": 1199.99,
+      "image": "../img/img-dat/dress/valdo1.avif",
+      "image1": "../img/img-dat/dress/valdo2.avif",
+      "image2": "../img/img-dat/dress/valdo3.avif",
+      "image3": "../img/img-dat/dress/valdo4.avif",
+      "category" : "dress"
+
+    },
+    {
+      "id": "9",
+      "brand": "Valentino",
+      "name": "Long Sleeve Dress",
+      "size": ["38", "39"],
+      "price": 1699.99,
+      "image": "../img/img-dat/dress/valtrang1.avif",
+      "image1": "../img/img-dat/dress/valtrang1.avif",
+      "image2": "../img/img-dat/dress/valtrang2.avif",
+      "image3": "../img/img-dat/dress/valtrang3.avif",
+      "category" : "dress"
+
+    }
+  ],
+  "bags": [
+    {
+      "id": "10",
+      "brand": "DOLCE & GABBANA",
+      "name": "XS Hourglass Top Handle Bag",
+      "price": 499.99,
+      "description": "A stylish leopard print clutch for a bold and trendy look.",
+      "image": "../img/img-dat/bags/tui12.avif",
+      "image1": "../img/img-dat/bags/tui11.avif",
+      "image2": "../img/img-dat/bags/tui12.avif",
+      "image3": "../img/img-dat/bags/tui13.avif",
+      "category" : "bag"
+
+    },
+    {
+      "id": "11",
+      "brand": "DOLCE & GABBANA",
+      "name": "Neo Cagole City Bag",
+      "price": 799.99,
+      "description": "A chic quilted crossbody bag with a chain strap for a touch of elegance.",
+      "image": "../img/img-dat/bags/tui21.webp",
+      "image1": "../img/img-dat/bags/tui21.webp",
+      "image2": "../img/img-dat/bags/tui22.webp",
+      "image3": "../img/img-dat/bags/tui23.webp",
+      "category" : "bag"
+
+    },
+    {
+      "id": "12",
+      "brand": "DOLCE & GABBANA",
+      "name": "Small Puffer Bag",
+      "price": 1499.99,
+      "description": "A sophisticated structured tote bag crafted from high-quality leather.",
+      "image": "../img/img-dat/bags/tui3.avif",
+      "image1": "../img/img-dat/bags/tui31.avif",
+      "image2": "../img/img-dat/bags/tui3.avif",
+      "image3": "../img/img-dat/bags/tui33.avif",
+      "category" : "bag"
+
+    },
+    {
+      "id": "13",
+      "brand": "Saint Laurent",
+      "name": "Le 5 A 7 Shoulder Bag",
+      "price": 1299.99,
+      "description": "An iconic Saint Laurent shoulder bag featuring the GG logo and a chain strap.",
+      "image": "../img/img-dat/bags/anhtui41.webp",
+      "image1": "../img/img-dat/bags/anhtui41.webp",
+      "image2": "../img/img-dat/bags/anhtui42.avif",
+      "image3": "../img/img-dat/bags/anhtui41.webp",
+      "category" : "bag"
+
+    },
+    {
+      "id": "14",
+      "brand": "Saint Laurent",
+      "name": "Small Puffer Bronze Metal Chain Bag",
+      "price": 999.99,
+      "description": "A compact Saint Laurent bag with the signature Web stripe and double G hardware.",
+      "image": "../img/img-dat/bags/tui51.avif",
+      "image1": "../img/img-dat/bags/tui51.avif",
+      "image2": "../img/img-dat/bags/tui52.avif",
+      "image3": "../img/img-dat/bags/tui53.avif",
+      "category" : "bag"
+
+    },
+    {
+      "id": "15",
+      "brand": "Saint Laurent",
+      "name": "Le 5 A 7 Shoulder Bag",
+      "price": 1899.99,
+      "description": "A luxurious leather top handle bag adorned with the distinctive Dionysus tiger head closure.",
+      "image": "../img/img-dat/bags/tui6.avif",
+      "image1": "../img/img-dat/bags/tui6.avif",
+      "image2": "../img/img-dat/bags/tui61.avif",
+      "image3": "../img/img-dat/bags/tui62.avif",
+      "category" : "bag"
+
+    },
+    {
+      "id": "16",
+      "brand": "Valentino",
+      "name": "Medium Summer Tote Bag",
+      "price": 899.99,
+      "description": "A glamorous spike-studded clutch featuring Valentino's iconic Rockstud detailing.",
+      "image": "../img/img-dat/bags/tui7.avif",
+      "image1": "../img/img-dat/bags/tui71.avif",
+      "image2": "../img/img-dat/bags/tui72.avif",
+      "image3": "../img/img-dat/bags/tui73.avif",
+      "category" : "bag"
+
+    },
+    {
+      "id": "17",
+      "brand": "Valentino",
+      "name": "Small Loco Shoulder Bag",
+      "price": 1399.99,
+      "description": "A sleek shoulder bag with a modern VSLING logo embellishment by Valentino.",
+      "image": "../img/img-dat/bags/tui8.avif",
+      "image1": "../img/img-dat/bags/tui81.avif",
+      "image2": "../img/img-dat/bags/tui82.avif",
+      "image3": "../img/img-dat/bags/tui83.avif",
+      "category" : "bag"
+
+    },
+    {
+      "id": "18",
+      "brand": "Valentino",
+      "name": "Rockstud Pouch",
+      "price": 1799.99,
+      "description": "A trendy studded bucket bag crafted from luxurious leather.",
+      "image": "../img/img-dat/bags/tui9.avif",
+      "image1": "../img/img-dat/bags/tui91.avif",
+      "image2": "../img/img-dat/bags/tui92.avif",
+      "image3": "../img/img-dat/bags/tui93.avif",
+      "category" : "bag"
+
+    }
+  ],
+  "shoes": [
+    {
+      "id": "19",
+      "brand": "DOLCE & GABBANA",
+      "name": "Stretch Over The Knee Boot",
+      "size": "US 6",
+      "price": 899.99,
+      "image": "../img/img-dat/shoes/giay1.avif",
+      "image1": "../img/img-dat/shoes/giay11.avif",
+      "image2": "../img/img-dat/shoes/giay12.avif",
+      "image3": "../img/img-dat/shoes/giay13.avif",
+      "category" : "shoe"
+
+    },
+    {
+      "id": "20",
+      "brand": "DOLCE & GABBANA",
+      "name": "Padded City Boots",
+      "size": "US 7",
+      "price": 799.99,
+      "image": "../img/img-dat/shoes/giay2.webp",
+      "image1": "../img/img-dat/shoes/giay21.webp",
+      "image2": "../img/img-dat/shoes/giay22.avif",
+      "image3": "../img/img-dat/shoes/giay23.avif",
+      "category" : "shoe"
+
+    },
+    {
+      "id": "21",
+      "brand": "DOLCE & GABBANA",
+      "name": "Converse Large Emblem Low Top Canvas Sneakers",
+      "size": "US 8",
+      "price": 1299.99,
+      "image": "../img/img-dat/shoes/giay3.avif",
+      "image1": "../img/img-dat/shoes/giay31.avif",
+      "image2": "../img/img-dat/shoes/giay32.avif",
+      "image3": "../img/img-dat/shoes/giay33.webp",
+      "category" : "shoe"
+
+    },
+    {
+      "id": "22",
+      "brand": "Saint Laurent",
+      "name": "Yasmeen Pump",
+      "size": "US 9",
+      "price": 699.99,
+      "image": "../img/img-dat/shoes/giay4.webp",
+      "image1": "../img/img-dat/shoes/giay41.webp",
+      "image2": "../img/img-dat/shoes/giay42.avif",
+      "image3": "../img/img-dat/shoes/giay43.webp",
+      "category" : "shoe"
+
+    },
+    {
+      "id": "23",
+      "brand": "Saint Laurent",
+      "name": "Martha Sandal",
+      "size": "US 10",
+      "price": 599.99,
+      "image": "../img/img-dat/shoes/giay5.avif",
+      "image1": "../img/img-dat/shoes/giay51.avif",
+      "image2": "../img/img-dat/shoes/giay52.avif",
+      "image3": "../img/img-dat/shoes/giay53.avif",
+      "category" : "shoe"
+
+    },
+    {
+      "id": "24",
+      "brand": "Saint Laurent",
+      "name": "Cassandra Heels",
+      "size": "US 11",
+      "price": 1299.99,
+      "image": "../img/img-dat/shoes/giay6.avif",
+      "image1": "../img/img-dat/shoes/giay61.avif",
+      "image2": "../img/img-dat/shoes/giay62.avif",
+      "image3": "../img/img-dat/shoes/giay63.avif",
+      "category" : "shoe"
+
+    },
+    {
+      "id": "25",
+      "brand": "Valentino",
+      "name": "Rocket Mule Pump",
+      "size": "US 6",
+      "price": 999.99,
+      "image": "../img/img-dat/shoes/giay7.webp",
+      "image1": "../img/img-dat/shoes/giay71.webp",
+      "image2": "../img/img-dat/shoes/giay72.avif",
+      "image3": "../img/img-dat/shoes/giay73.webp",
+      "category" : "shoe"
+
+    },
+    {
+      "id": "26",
+      "brand": "Valentino",
+      "name": "Stretch Ankle Sandal",
+      "size": "US 7",
+      "price": 799.99,
+      "image": "../img/img-dat/shoes/giay8.webp",
+      "image1": "../img/img-dat/shoes/giay81.webp",
+      "image2": "../img/img-dat/shoes/giay82.avif",
+      "image3": "../img/img-dat/shoes/giay83.avif",
+      "category" : "shoe"
+
+    },
+    {
+      "id": "27",
+      "brand": "Valentino",
+      "name": "Web Sparkle Stretch Lace Up Sandals",
+      "size": "US 8",
+      "price": 1499.99,
+      "image": "../img/img-dat/shoes/giay9.avif",
+      "image1": "../img/img-dat/shoes/giay91.avif",
+      "image2": "../img/img-dat/shoes/giay92.avif",
+      "image3": "../img/img-dat/shoes/giay93.avif",
+      "category" : "shoe"
+
+    }
+  ],
+  "accessories": [
+    {
+      "id": "28",
+      "brand": "DOLCE & GABBANA",
+      "name": "Classic Cat",
+      "price": 299.99,
+      "image": "../img/img-dat/accessories/acc1.avif",
+      "image1": "../img/img-dat/accessories/acc11.avif",
+      "image2": "../img/img-dat/accessories/acc12.avif",
+      "image3": "../img/img-dat/accessories/acc13.avif",
+      "category" : "accessories"
+
+    },
+    {
+      "id": "29",
+      "brand": "DOLCE & GABBANA",
+      "name": "Circular Sunglasses",
+      "price": 199.99,
+      "image": "../img/img-dat/accessories/acc2.avif",
+      "image1": "../img/img-dat/accessories/acc21.avif",
+      "image2": "../img/img-dat/accessories/acc22.avif",
+      "image3": "../img/img-dat/accessories/acc21.avif",
+      "category" : "accessories"
+
+    },
+    {
+      "id": "30",
+      "brand": "DOLCE & GABBANA",
+      "name": "Rectangular Cat",
+      "price": 399.99,
+      "image": "../img/img-dat/accessories/acc3.avif",
+      "image1": "../img/img-dat/accessories/acc31.avif",
+      "image2": "../img/img-dat/accessories/acc32.avif",
+      "image3": "../img/img-dat/accessories/acc33.avif",
+      "category" : "accessories"
+
+    },
+    {
+      "id": "31",
+      "brand": "Saint Laurent",
+      "name": "Paula's Ibiza Rectangle Sunglasses",
+      "price": 149.99,
+      "image": "../img/img-dat/accessories/acc4.avif",
+      "image1": "../img/img-dat/accessories/acc41.avif",
+      "image2": "../img/img-dat/accessories/acc42.avif",
+      "image3": "../img/img-dat/accessories/acc4.avif",
+      "category" : "accessories"
+
+    },
+    {
+      "id": "32",
+      "brand": "Saint Laurent",
+      "name": "Jewel Belt",
+      "price": 899.99,
+      "image": "../img/img-dat/accessories/acc5.avif",
+      "image1": "../img/img-dat/accessories/acc51.avif",
+      "image2": "../img/img-dat/accessories/acc52.avif",
+      "image3": "../img/img-dat/accessories/acc53.avif",
+      "category" : "accessories"
+
+    },
+    {
+      "id": "33",
+      "brand": "Saint Laurent",
+      "name": "Perforated Corset Belt",
+      "price": 499.99,
+      "image": "../img/img-dat/accessories/acc6.avif",
+      "image1": "../img/img-dat/accessories/acc61.avif",
+      "image2": "../img/img-dat/accessories/acc62.avif",
+      "image3": "../img/img-dat/accessories/acc6.avif",
+      "category" : "accessories"
+
+    },
+    {
+      "id": "34",
+      "brand": "Valentino",
+      "name": "Beanie",
+      "price": 599.99,
+      "image": "../img/img-dat/accessories/acc7.avif",
+      "image1": "../img/img-dat/accessories/acc71.avif",
+      "image2": "../img/img-dat/accessories/acc72.avif",
+      "image3": "../img/img-dat/accessories/acc7.avif",
+      "category" : "accessories"
+
+    },
+    {
+      "id": "35",
+      "brand": "Valentino",
+      "name": "Face Beanie",
+      "price": 799.99,
+      "image": "../img/img-dat/accessories/acc8.avif",
+      "image1": "../img/img-dat/accessories/acc81.avif",
+      "image2": "../img/img-dat/accessories/acc82.webp",
+      "image3": "../img/img-dat/accessories/acc83.webp",
+      "category" : "accessories"
+
+    },
+    {
+      "id": "36",
+      "brand": "Valentino",
+      "name": "Baseball Hat",
+      "price": 399.99,
+      "image": "../img/img-dat/accessories/acc9.webp",
+      "image1": "../img/img-dat/accessories/acc91.avif",
+      "image2": "../img/img-dat/accessories/acc92.avif",
+      "image3": "../img/img-dat/accessories/acc9.webp",
+      "category" : "accessories"
+
+    }
+  ]
+}
+

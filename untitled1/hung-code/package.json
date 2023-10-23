@@ -1,0 +1,448 @@
+{
+  "dresses": [
+    {
+      "id": "1",
+      "brand": "DOLCE & GABBANA",
+      "name": "Printed Mini Dress",
+      "size": ["36", "37", "38"],
+      "price": 799.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD114_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "dress"
+    },
+    {
+      "id": "2",
+      "brand": "DOLCE & GABBANA",
+      "name": "Jersey Cut Out Mini Dress",
+      "size": ["37", "38"],
+      "price": 999.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "dress"
+
+    },
+    {
+      "id": "3",
+      "brand": "DOLCE & GABBANA",
+      "name": "Short Sleeve Midi Dress",
+      "size": ["38", "39"],
+      "price": 1999.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD91_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "dress"
+
+    },
+    {
+      "id": "4",
+      "brand": "Saint Laurent",
+      "name": "Jersey Long Sleeve Gown",
+      "size": ["36", "37"],
+      "price": 699.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/SLAU-WD235_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "dress"
+
+    },
+    {
+      "id": "5",
+      "brand": "Saint Laurent",
+      "name": "Mock Neck Long Sleeve Dress",
+      "size": ["37", "38"],
+      "price": 899.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/SLAU-WD243_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "dress"
+
+    },
+    {
+      "id": "6",
+      "brand": "Saint Laurent",
+      "name": "Jersey Ruched Long Sleeve Mini Dress",
+      "size": ["38", "39"],
+      "price": 1499.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/SLAU-WD238_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "dress"
+
+    },
+    {
+      "id": "7",
+      "brand": "Valentino",
+      "name": "Crepe Maxi Gown",
+      "size": ["36", "37"],
+      "price": 899.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/VTIF-WD46_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "dress"
+
+    },
+    {
+      "id": "8",
+      "brand": "Valentino",
+      "name": "Long Sleeve Mini Dress",
+      "size": ["37", "38"],
+      "price": 1199.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/VTIF-WD47_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "dress"
+
+    },
+    {
+      "id": "9",
+      "brand": "Valentino",
+      "name": "Long Sleeve Dress",
+      "size": ["38", "39"],
+      "price": 1699.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/VTIF-WD43_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "dress"
+
+    }
+  ],
+  "bags": [
+    {
+      "id": "10",
+      "brand": "DOLCE & GABBANA",
+      "name": "XS Hourglass Top Handle Bag",
+      "price": 499.99,
+      "description": "A stylish leopard print clutch for a bold and trendy look.",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/BALF-WY428_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "bag"
+
+    },
+    {
+      "id": "11",
+      "brand": "DOLCE & GABBANA",
+      "name": "Neo Cagole City Bag",
+      "price": 799.99,
+      "description": "A chic quilted crossbody bag with a chain strap for a touch of elegance.",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/BALF-WY1094_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "bag"
+
+    },
+    {
+      "id": "12",
+      "brand": "DOLCE & GABBANA",
+      "name": "Small Puffer Bag",
+      "price": 1499.99,
+      "description": "A sophisticated structured tote bag crafted from high-quality leather.",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/BALF-WY1281_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "bag"
+
+    },
+    {
+      "id": "13",
+      "brand": "Saint Laurent",
+      "name": "Le 5 A 7 Shoulder Bag",
+      "price": 1299.99,
+      "description": "An iconic Saint Laurent shoulder bag featuring the GG logo and a chain strap.",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/SLAU-WY2332_V1.jpg" ,
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "bag"
+
+    },
+    {
+      "id": "14",
+      "brand": "Saint Laurent",
+      "name": "Small Puffer Bronze Metal Chain Bag",
+      "price": 999.99,
+      "description": "A compact Saint Laurent bag with the signature Web stripe and double G hardware.",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/SLAU-WY2331_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "bag"
+
+    },
+    {
+      "id": "15",
+      "brand": "Saint Laurent",
+      "name": "Le 5 A 7 Shoulder Bag",
+      "price": 1899.99,
+      "description": "A luxurious leather top handle bag adorned with the distinctive Dionysus tiger head closure.",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/SLAU-WY2332_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "bag"
+
+    },
+    {
+      "id": "16",
+      "brand": "Valentino",
+      "name": "Medium Summer Tote Bag",
+      "price": 899.99,
+      "description": "A glamorous spike-studded clutch featuring Valentino's iconic Rockstud detailing.",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/VENT-WY977_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "bag"
+
+    },
+    {
+      "id": "17",
+      "brand": "Valentino",
+      "name": "Small Loco Shoulder Bag",
+      "price": 1399.99,
+      "description": "A sleek shoulder bag with a modern VSLING logo embellishment by Valentino.",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/VENT-WY940_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "bag"
+
+    },
+    {
+      "id": "18",
+      "brand": "Valentino",
+      "name": "Rockstud Pouch",
+      "price": 1799.99,
+      "description": "A trendy studded bucket bag crafted from luxurious leather.",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/VENT-WY723_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "bag"
+
+    }
+  ],
+  "shoes": [
+    {
+      "id": "19",
+      "brand": "DOLCE & GABBANA",
+      "name": "Stretch Over The Knee Boot",
+      "size": "US 6",
+      "price": 899.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WZ28_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "shoe"
+
+    },
+    {
+      "id": "20",
+      "brand": "DOLCE & GABBANA",
+      "name": "Padded City Boots",
+      "size": "US 7",
+      "price": 799.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WZ27_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "shoe"
+
+    },
+    {
+      "id": "21",
+      "brand": "DOLCE & GABBANA",
+      "name": "Converse Large Emblem Low Top Canvas Sneakers",
+      "size": "US 8",
+      "price": 1299.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/CDES-UZ13W_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "shoe"
+
+    },
+    {
+      "id": "22",
+      "brand": "Saint Laurent",
+      "name": "Yasmeen Pump",
+      "size": "US 9",
+      "price": 699.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/SLAU-WZ1083_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "shoe"
+
+    },
+    {
+      "id": "23",
+      "brand": "Saint Laurent",
+      "name": "Martha Sandal",
+      "size": "US 10",
+      "price": 599.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/SLAU-WZ1079_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "shoe"
+
+    },
+    {
+      "id": "24",
+      "brand": "Saint Laurent",
+      "name": "Cassandra Heels",
+      "size": "US 11",
+      "price": 1299.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/SLAU-WZ1085_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "shoe"
+
+    },
+    {
+      "id": "25",
+      "brand": "Valentino",
+      "name": "Rocket Mule Pump",
+      "size": "US 6",
+      "price": 999.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/BOTT-WZ464_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "shoe"
+
+    },
+    {
+      "id": "26",
+      "brand": "Valentino",
+      "name": "Stretch Ankle Sandal",
+      "size": "US 7",
+      "price": 799.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/BOTT-WZ441_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "shoe"
+
+    },
+    {
+      "id": "27",
+      "brand": "Valentino",
+      "name": "Web Sparkle Stretch Lace Up Sandals",
+      "size": "US 8",
+      "price": 1499.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/BOTT-WZ356_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "shoe"
+
+    }
+  ],
+  "accessories": [
+    {
+      "id": "28",
+      "brand": "DOLCE & GABBANA",
+      "name": "Classic Sunglasses",
+      "price": 299.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/DOLF-WA33_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "accessories"
+
+    },
+    {
+      "id": "29",
+      "brand": "DOLCE & GABBANA",
+      "name": "Circular Sunglasses",
+      "price": 199.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/DOLF-WA34_V1.jpg",
+      "image1": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V2.jpg",
+      "image2": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V3.jpg",
+      "image3": "https://is4.fwrdassets.com/images/p/fw/z/DOLF-WD112_V4.jpg",
+      "category" : "accessories"
+
+    },
+    {
+      "id": "30",
+      "brand": "DOLCE & GABBANA",
+      "name": "Rectangular Sunglasses",
+      "price": 399.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/DOLF-WA28_V1.jpg",
+      "category" : "accessories"
+
+    },
+    {
+      "id": "31",
+      "brand": "Saint Laurent",
+      "name": "Paula's Ibiza Rectangle Sunglasses",
+      "price": 149.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/LOEW-WA203_V1.jpg",
+      "category" : "accessories"
+
+    },
+    {
+      "id": "32",
+      "brand": "Saint Laurent",
+      "name": "Jewel Belt",
+      "price": 899.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/TERX-WA22_V1.jpg",
+      "category" : "accessories"
+
+    },
+    {
+      "id": "33",
+      "brand": "Saint Laurent",
+      "name": "Perforated Corset Belt",
+      "price": 499.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/ALIA-WA37_V1.jpg",
+      "category" : "accessories"
+
+    },
+    {
+      "id": "34",
+      "brand": "Valentino",
+      "name": "Beanie",
+      "price": 599.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/ACNE-WH8_V1.jpg",
+      "category" : "accessories"
+
+    },
+    {
+      "id": "35",
+      "brand": "Valentino",
+      "name": "Face Beanie",
+      "price": 799.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/ACNE-WA186_V1.jpg",
+      "category" : "accessories"
+
+    },
+    {
+      "id": "36",
+      "brand": "Valentino",
+      "name": "Baseball Hat",
+      "price": 399.99,
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/ACNE-WA174_V1.jpg",
+      "category" : "accessories"
+
+    }
+  ]
+}
+

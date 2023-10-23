@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewpoint" content="width-device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/1147679ae7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="projectcss-after.css">
+  <link rel="stylesheet" href="../img/themify-icons-font/themify-icons/themify-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script >
+    var datas;
+    fetch('package.json')
+            .then(response => response.json())
+            .then(data => {
+              datas = data;
+              displayProductDetail();
+            })
+            .catch(error => {
+              console.error(error);
+            });
+
+    function displayProductDetail() {
+
+      const urlParams = new URLSearchParams(window.location.search);
+      const productId = urlParams.get("id");
+
+      const img =findProductById(productId);
+
+
+
+      const product = findProductById(productId);
+      if (product) {
+        const container = document.getElementById("product-detail-container");
+        const productImageContainer = document.getElementById("product-content-left-big-img");
+        const productDetailIamge = document.getElementById("product-content-left-small-img")
+
+
+
+        const imageElement = document.createElement("img");
+        imageElement.src = product.image;
+
+        const image1 = document.createElement("img");
+        image1.src = product.image1;
+
+        const image2 = document.createElement("img");
+        image2.src = product.image2;
+
+        const image3 = document.createElement("img");
+        image3.src = product.image3;
+
+
+        const brandElement = document.createElement("h5");
+        brandElement.textContent = product.brand;
+
+        const nameElement = document.createElement("p");
+        nameElement.textContent = product.name;
+
+        const priceElement = document.createElement("p");
+        priceElement.innerHTML =  product.price + "<sup>$</sup>" ;
+
+        productDetailIamge.appendChild(image1);
+        productDetailIamge.appendChild(image2);
+        productDetailIamge.appendChild(image3);
+
+        productImageContainer.appendChild(imageElement);
+        // container.appendChild(imageElement);
+        container.appendChild(brandElement);
+        container.appendChild(nameElement);
+        container.appendChild(priceElement);
+      }
+    }
+
+    function findProductById(productId) {
+      for (const category in datas) {
+        const products = datas[category];
+        const product = products.find(p => p.id === productId);
+        if (product) {
+          return product;
+        }
+      }
+      return null;
+    }
+
+
+
+  </script>
+
+
+
+  <title>Product web page</title>
+</head>
+
+
+<body>
+
+<!-------------------------- HEADER -------------------------->
+<!---header-content-->
+<div class="header-content">
+  <div class="header-links">
+    <a href="#">USD</a>
+    <!--            <a href="#">VND</a>-->
+    <a href="#">Need Help?</a>
+    <a href="../dat-code/sign%20in.html">Sign In</a>
+  </div>
+</div>
+
+<!---header-->
+
+<div id="header-nav">
+  <div class="header-left">
+    <span class="header-category"> Fashion's Women</span>
+
+  </div>
+  <h1 class="header-title">
+    <img src="../img/img-dat/logo.png" alt="123" width="90px" >
+
+  </h1>
+  <div class="header-links">
+    <a href="#" class="header-link">
+      <span class="header-link-icon ti-search header-link-icon"></span>
+      Search
+    </a>
+    <a href="../Minh-code/wishlist.html" class="header-link">
+      <span class="header-link-icon ti-heart header-link-icon"></span>
+      Wishlist
+    </a>
+    <a href="../dat-code/mybag.html" class="header-link">
+      <span class="header-link-icon ti-shopping-cart header-link-icon"></span>
+      My Bag
+    </a>
+  </div>
+</div>
+<div id="navbar">
+  <!--        <nav>-->
+  <ul class="nav-menu">
+    <li><a href="#">New</a></li>
+    <li><a href="#">Brands</a>
+      <ul class="subnav">
+        <ul class="subnav-item">
+          <img src="../img/img-dat/Nguoi_mau_Gucci_2.jpg " alt="" width="200px" height="auto">
+          <ul class="list-nav">
+            <li><a href="#">Gucci</a></li>
+            <li><a href="#">Louis Vuitton</a></li>
+            <li><a href="#">Coolmate</a></li>
+          </ul>
+        </ul>
+      </ul>
+    </li>
+    <li><a href="#">Dresses</a>
+      <ul class="subnav">
+        <ul class="subnav-item">
+          <img src="../img/img-dat/váy.jpg" alt="" width="200px" height="210px">
+          <ul class="list-nav">
+            <li><a href="#">Leather</a></li>
+            <li><a href="#">Long Sleeve</a></li>
+            <li><a href="#">Maxi</a></li>
+          </ul>
+
+        </ul>
+      </ul>
+    </li>
+    <li><a href="#">Shoes</a></li>
+    <li><a href="#">Bags</a></li>
+    <li><a href="#">Accessories</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+  <!--        </nav>-->
+</div>
+
+<!------------------------------- Products ----------------------------->
+
+<section class="product">
+  <div class="container">
+    <div class="product-top row">
+      <p>Menu </p><span>&#47;</span> <p>Product's Detail </p>
+    </div>
+    <div class="product-content row">
+      <div class="product-content-left row">
+        <div id="product-content-left-big-img">
+
+        </div>
+        <div id="product-content-left-small-img">
+
+
+        </div>
+      </div>
+      <div class="product-content-right ">
+        <div id="product-detail-container">
+
+        </div>
+        <div class="container-advice">
+          <div class="advice">
+            <p>Use code: <b>FWRD10 </b>for <b>10% off</b> your first order!</p>
+            <p><i>Brand exclusions apply, not valid on sale or preorder</i></p>
+          </div>
+        </div>
+
+        <div class="product-content-right-product-size">
+          <p style="font-weight: bold;">Size : <span style="color: #ccc;">Select</span></p>
+          <div class="size-pick">
+            <span class="size">36</span>
+            <span class="size">37</span>
+            <span class="size">38</span>
+          </div>
+          <div class="sizewarn">
+            <p>* Vui lòng chọn size !</p>
+          </div>
+        </div>
+        <div class="size-sp">
+          <button style="border: none; background-color: inherit;"><a href="#" style="font-size: 14px;">View Size Guide</a></button>
+          <a href="#" style="font-size: 14px;">Can find your size ?</a>
+        </div>
+        <div class="product-content-right-product-button">
+          <button id="button1"><i class="fa fa-shopping-bag"></i> ADD TO BAG</button>
+          <button id="button2"><i class="fa fa-light fa-heart"></i> <p>ADD TO WISH LIST</p></button>
+        </div>
+        <div class="product-content-right-product-inf">
+          <a href="#">Free international shipping on orders of $100 USD or more before duties and taxes</a><br>
+
+        </div>
+        <div class="product-content-right-bottom">
+          <div id="product-content-right-bottom-top">
+            &#8744;
+          </div>
+          <div id="product-content-right-bottom-content-big" style= "display: none;">
+            <div class="product-content-right-bottom-content-title row">
+              <div class="product-content-right-bottom-content-title-item details">
+                <p>Details</p>
+              </div>
+            </div>
+            <div class="product-content-right-bottom-content">
+              <div class="product-content-right-bottom-content-details">
+                <ul style="list-style-type: disc;">
+                  <li>Self: 100% lamb leather</li>
+                  <li>Lining: 100% silk</li>
+                  <li>Made in Italy</li>
+                  <li>Professional leather clean only</li>
+                  <li>Fully lined</li>
+                  <li>Exposed back zipper closure</li>
+                  <li>Our Style No. CLOE-WD127</li>
+                  <li>Manufacturer Style No. CHC23UCR21207</li>
+                  <li>Model is wearing size 36. <a href="#">View detailed measurements</a> of this item.</li>
+                </ul>
+              </div>
+              <div class="product-content-right-bottom-content-Styled">
+
+              </div>
+              <div class="product-content-right-bottom-content-designer">
+                <p>Chloé was founded in 1952 by Egyptian-born Parisian Gaby Aghion in a bid to provide an alternative to couture. Today, it is headed by French designer Natacha Ramsay-Levi. Beautifully executed pieces with a retro-tinged sensibility are the cornerstone of the house – think sharp tailoring, leather separates and relaxed dresses.</p>
+                <a href="#">Shop the Collection</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!------------------------- product-related ----------------------------->
+
+<!--help us-->
+<div class="help-us">
+  <p>Help us improve</p>
+</div>
+<div class="footer">
+  <div class="col-1">
+    <h3>Useful Links</h3>
+    <a href="#">About</a>
+    <a href="#">Service</a>
+    <a href="#">Contact </a>
+    <a href="#">Shop</a>
+    <a href="#">Blog</a>
+  </div>
+
+  <div class="col-2">
+    <h3>Newsletter</h3>
+    <form>
+      <input type="email" id="email" name="email" placeholder="Your email address" required>
+    </form>
+    <br>
+    <button type="submit">Subcribe now</button>
+  </div>
+
+  <div class="col-3">
+    <h3>Contact</h3>
+    123,XYZ Road,BSK 345
+    <div class="icon">
+      <i class="ti-facebook"></i>
+      <i class="ti-twitter-alt"></i>
+      <i class="ti-youtube"></i>
+      <i class="ti-instagram"></i>
+    </div>
+  </div>
+  <div class="col-1">
+    <h3>OUR APPS</h3>
+    <a href="#">Ipad</a>
+    <a href="#">Iphone</a>
+  </div>
+</div>
+
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const sizePick = document.querySelector('.size-pick');
+    const sizes = sizePick.querySelectorAll('.size');
+
+    sizes.forEach(size => {
+      size.addEventListener('click', function () {
+        // Xóa lớp 'hover' khỏi tất cả các phần tử size
+        sizes.forEach(size => {
+          size.classList.remove('hover');
+        });
+
+        // Thêm lớp 'hover' cho phần tử size được chọn
+        this.classList.add('hover');
+      });
+    });
+  });
+</script>
+</body>
+<script>
+  const click = document.getElementById("product-content-right-bottom-top");
+  const content = document.getElementById("product-content-right-bottom-content-big");
+
+  click.addEventListener("click", function() {
+    if (content.style.display === "none") {
+      content.style.display = "block";
+    } else {
+      content.style.display = "none";
+    }
+  });
+
+
+</script>
+</html>

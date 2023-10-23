@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width-device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1147679ae7.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="../img/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>Upcoming Collections</title>
+    <script src="UpcomingCollection.js"></script>
+    <link rel="stylesheet" href="UpcomingCollection.css">
+    <link rel="stylesheet" href="productlist.css">
+
+
+</head>
+
+
+
+<body>
+
+
+
+<!---header-content-->
+<!-- HEADER -->
+
+<!---header-content-->
+<div class="header-content">
+    <div class="header-links">
+        <p>
+            <img src="../img/img-dat/covietnam1.webp" alt="">
+        </p>
+        <a href="#">USD</a>
+        <!--            <a href="#">VND</a>-->
+        <a href="../dat-code/contact%20(1).html">Need Help?</a>
+        <a href="../dat-code/sign%20in.html">Sign In</a>
+    </div>
+</div>
+
+<!---header-->
+
+<div id="header-nav">
+    <div class="header-left">
+        <span class="header-category">Fashion's Women</span>
+
+    </div>
+    <h1 class="header-title">
+        <img src="../img/img-dat/logo.png" alt="123" width="90px" >
+
+    </h1>
+    <div class="header-links">
+
+        <a href="../Minh-code/wishlist.html" class="header-link">
+            <span class="header-link-icon ti-heart header-link-icon"></span>
+            Live Chat
+        </a>
+        <a href="../dat-code/mybag.html" class="header-link">
+            <span class="header-link-icon ti-shopping-cart header-link-icon"></span>
+            My Bag(1)
+        </a>
+    </div>
+</div>
+<div id="navbar">
+    <!--        <nav>-->
+    <ul class="nav-menu">
+        <li><a href="../dat-code/Home.html">Home</a></li>
+        <li><a href="../dat-code/brand.html" style="cursor: pointer" onclick="filterbrand('DOLCE & GABBANA')" >Brands</a>
+            <ul class="subnav">
+                <ul class="subnav-item">
+                    <img src="../img/img-dat/Nguoi_mau_Gucci_2.jpg " alt="" width="200px" height="auto">
+                    <ul class="list-nav">
+                        <li><a href="../dat-code/brand.html">DOLCE & GABBANA</a></li>
+                        <li><a href="../dat-code/brand.html">Saint Laurent</a></li>
+                        <li><a href="../dat-code/brand.html">Valentino</a></li>
+                    </ul>
+                </ul>
+            </ul>
+        </li>
+        <li><a href="../dat-code/dress.html">Dresses</a></li>
+        <li><a href="../dat-code/shoes.html">Shoes</a></li>
+        <li><a href="../dat-code/bags.html">Bags</a></li>
+        <li><a href="../dat-code/accessories.html">Accessories</a></li>
+        <li><a href="../dat-code/contact%20(1).html">Contact</a></li>
+    </ul>
+    <!--        </nav>-->
+</div>
+
+<!-- --------------------CATEGORY BRANDS --------------------------- -->
+
+<section class="cartegory">
+    <div class="cartegory-container">
+        <div class="cartegory-top row">
+            <p class="top">Menu </p><span>&#47;</span><p class="top">Upcoming Collection </p>
+        </div>
+
+    </div>
+    <div class="cartegory-container row">
+        <div class="cartegory-left">
+            <div class="cartegory-left-top">
+                <h2>FEATURE UPCOMING COLLECTION</h2>
+            </div>
+            <div class="cartegory-left-bottom">
+                <a onclick="filter('THESUMMERITLIST2')">DOWN TO THE LAST DETAIL</a>
+                <a onclick="filter('THESUMMERITLIST1')">SUMMER IN LA</a>
+                <a onclick="filter('THESUMMERITLIST')">PRETTY PRINTS</a>
+            </div>
+        </div>
+        <div class="cartegory-right">
+            <div class="cartegory-right-top">
+                <button><span>Filter by:</span> <i class="fas fa-sort-down"></i></button>
+            </div>
+            <div class="cartegory-right-top-filter row">
+                <div class="cartegory-right-top-filter-item">
+                    <!--                    <p>6 Items</p>-->
+                </div>
+
+            </div>
+            <div class="cartegory-right-bottom row">
+                <div class="cartegory-right-bottom-item">
+                    <div id="product-container" ></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</section>
+<div class="help-us">
+    <p>Help us improve</p>
+</div>
+<div class="footer">
+    <div class="col-1">
+        <h3>Useful Links</h3>
+        <a href="#">About</a>
+        <a href="#">Service</a>
+        <a href="#">Contact </a>
+        <a href="#">Shop</a>
+        <a href="#">Blog</a>
+    </div>
+
+    <div class="col-2">
+        <h3>Newsletter</h3>
+        <form>
+            <input type="email" id="email" name="email" placeholder="Your email address" required>
+        </form>
+        <br>
+        <button type="submit">Subcribe now</button>
+    </div>
+
+    <div class="col-3">
+        <h3>Contact</h3>
+        123,XYZ Road,BSK 345
+        <div class="icon">
+            <i class="ti-facebook"></i>
+            <i class="ti-twitter-alt"></i>
+            <i class="ti-youtube"></i>
+            <i class="ti-instagram"></i>
+        </div>
+    </div>
+    <div class="col-1">
+        <h3>OUR APPS</h3>
+        <a href="#">Ipad</a>
+        <a href="#">Iphone</a>
+    </div>
+</div>
+
+
+
+</body>
+
+</html>
